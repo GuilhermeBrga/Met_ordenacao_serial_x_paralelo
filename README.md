@@ -42,9 +42,25 @@ Os resultados das execuções serão comparados entre as versões seriais e para
 | 500000|	35270 ms|	9111 ms|	2376 ms|	1167 ms|	824 ms|	725 ms|
 | 1000000|	254810 ms|	59256 ms|	18082 ms|	10173 ms|	7668 ms|	5295 ms|
 
+## Quick Sort:
 
+| Tamanho dos dados | Tempo serial | Tempo paralelo (2 threads) | Tempo paralelo (4 threads) | Tempo paralelo (6 threads) | Tempo paralelo (8 threads) | Tempo paralelo (10 threads) |
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|5000|	0 ms|	0 ms|	0 ms|	0 ms|	7 ms|	0 ms|
+|50000|	11 ms|	17 ms|	3 ms|	3 ms|	3 ms|	2 ms|
+|100000|	27 ms|	17 ms|	16 ms|	0 ms|	9 ms|	7 ms|
+|500000|	35 ms|	27 ms|	12 ms|	10 ms|	8 ms|	9 ms|
+|1000000|	112 ms| 	81 ms|	46 ms|	35 ms|	35 ms|	27 ms|
 
+## Selection Sort:
 
+| Tamanho dos dados | Tempo serial | Tempo paralelo (2 threads) | Tempo paralelo (4 threads) | Tempo paralelo (6 threads) | Tempo paralelo (8 threads) | Tempo paralelo (10 threads) |
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|5000|	34 ms|	19 ms|	18 ms|	5 ms|	0 ms|	0 ms|
+|50000|	957 ms|	297 ms|	95 ms|	30 ms|	24 ms|	18 ms|
+|100000|	7769 ms|	2290 ms|	601 ms|	133 ms|	106 ms|	76 ms|
+|500000|	84670 ms|	21451 ms|	5646 ms| 	1231 ms|	764 ms|	633 ms|
+|1000000|		655314 ms| 	162774 ms| 	54123 ms|	7073 ms| 	4999 ms|
 
 
 
