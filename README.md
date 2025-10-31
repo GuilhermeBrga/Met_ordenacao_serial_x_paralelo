@@ -30,9 +30,16 @@ Os resultados das execuções serão comparados entre as versões seriais e para
 |   50000   | 4138 ms   | 11457 ms | 15420 ms   | 21987 ms  | 32939 ms  | 37864 ms  |
 |   100000  | 19580 ms  | 27943 ms | 35407 ms  | 57129 ms  | 75300 ms   | 91515 ms  |
 |   500000  | 41591 ms  | 207364 ms | 194635 ms | 223186 ms | 223186 ms | 304943 ms |
-|  1000000  | 1774150 ms | 686890 ms | 594364 ms | 648869 ms | 754694 ms | 3033221 ms|           
+|  1000000  | 1774150 ms | 686890 ms | 594364 ms | 648869 ms | 754694 ms | 3033221 ms|    
 
+## Insertion Sort:
 
+|Tamanho do Vetor |	Tempo Serial | Tempo paralelo (2 threads) | Tempo paralelo (4 threads) |Tempo paralelo (6 threads) | Tempo paralelo (8 threads) | Tempo paralelo (10 threads) |
+| 5000 |	13 ms	|10 ms	|19 ms|	2 ms 	|0 ms|	0 ms|
+| 50000	|512 ms|	127 ms	|46 ms	|28 ms	|26 ms|	18 ms|
+| 100000|	4234 ms	|1063 ms|	246 ms|	142 ms|	82 ms|	65 ms|
+| 500000|	35270 ms|	9111 ms|	2376 ms|	1167 ms|	824 ms|	725 ms|
+| 1000000|	254810 ms|	59256 ms|	18082 ms|	10173 ms|	7668 ms|	5295 ms|
 
 
 
