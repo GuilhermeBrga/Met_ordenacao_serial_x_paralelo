@@ -25,6 +25,18 @@ Os resultados das execuções serão comparados entre as versões seriais e para
 
 
 | Tamanho dos dados | Tempo serial | Tempo paralelo (2 threads) | Tempo paralelo (4 threads) | Tempo paralelo (6 threads) | Tempo paralelo (8 threads) | Tempo paralelo (10 threads) |
-|-----------|-----------|-----------|
-| Valor 1   | Valor 2   | Valor 3   |
-| Valor A   | Valor B   | Valor C   |
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|    5000   | 41 ms   | 1116 ms   |  1447 ms    | 2357 ms   |  2916 ms  |  3431 ms  |
+|   50000   | 4138 ms   | 11457 ms | 15420 ms   | 21987 ms  | 32939 ms  | 37864 ms  |
+|   100000  | 19580 ms  | 27943 ms | 35407 ms  | 57129 ms  | 75300 ms   | 91515 ms  |
+|   500000  | 41591 ms  | 207364 ms | 194635 ms | 223186 ms | 223186 ms | 304943 ms |
+|  1000000  | 1774150 ms | 686890 ms | 594364 ms | 648869 ms | 754694 ms | 3033221 ms|           
+
+
+
+
+
+
+
+
+
