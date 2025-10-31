@@ -63,4 +63,18 @@ Os resultados das execuções serão comparados entre as versões seriais e para
 |1000000|		655314 ms| 	162774 ms| 	54123 ms|11438 ms|	7073 ms| 	4999 ms|
 
 
+# Conclusão:
 
+O estudo obteve a compreensão mais profunda esperada sobre o desempenho relativo dos algoritmos de ordenação em ambientes seriais e paralelos. Os resultados demonstram que, embora o Quick Sort tenha se revelado o algoritmo mais eficiente em tempo de execução para o conjunto de dados testado (com tempos de 1 ms em média), a transição do modo serial para o paralelo gerou ganhos de desempenho absolutos notáveis em todos os métodos, especialmente naqueles com complexidade $O(n^2)$, como o Bubble Sort e o Selection Sort. Esses insights fornecem dados concretos sobre quais algoritmos são mais eficientes sob diferentes condições e permitem compreender a influência do número de threads e do tipo de algoritmo na escalabilidade. Dessa forma, este trabalho cumpre seu papel de contribuir para o avanço do conhecimento em computação concorrente e paralela, apoiando desenvolvedores e pesquisadores na escolha e otimização de algoritmos para sistemas multicore. 
+
+# Referências:
+
+DEV_MEDIA. Algoritmos de ordenação: análise e comparação. 2013. Disponível em: https://www.devmedia.com.br/algoritmos-de-ordenacao-analise-e-comparacao/28261. 
+
+KHAN ACADEMY. Insertion sort. [S.d.]. Disponível em: https://pt.khanacademy.org/computing/computer-science/algorithms/insertion-sort/a/insertion-sort.  
+
+MACHADO, João Arthur B. Insertion Sort. [S.l.]: GitHub Pages. Disponível em: https://joaoarthurbm.github.io/eda/posts/insertion-sort.  
+
+MACHADO, João Arthur B. Merge Sort. [S.l.]: GitHub Pages. Disponível em: https://joaoarthurbm.github.io/eda/posts/merge-sort.  
+
+MACHADO, João Arthur B. Quick Sort. [S.l.]: GitHub Pages. Disponível em: https://joaoarthurbm.github.io/eda/posts/quick-sort.  
