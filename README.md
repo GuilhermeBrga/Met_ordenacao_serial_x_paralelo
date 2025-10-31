@@ -3,7 +3,7 @@ Integrantes:
     João Guilherme Braga Nascimento / 2210285
     Miguel Tacchi / 2310356
 
-Link para o GitHub:
+Link para o GitHub: https://github.com/GuilhermeBrga/Met_ordenacao_serial_x_paralelo
 
 # Resumo:
 
