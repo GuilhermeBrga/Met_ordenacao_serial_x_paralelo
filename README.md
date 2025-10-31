@@ -34,7 +34,8 @@ Os resultados das execuções serão comparados entre as versões seriais e para
 
 ## Insertion Sort:
 
-|Tamanho do Vetor |	Tempo Serial | Tempo paralelo (2 threads) | Tempo paralelo (4 threads) |Tempo paralelo (6 threads) | Tempo paralelo (8 threads) | Tempo paralelo (10 threads) |
+| Tamanho dos dados | Tempo serial | Tempo paralelo (2 threads) | Tempo paralelo (4 threads) | Tempo paralelo (6 threads) | Tempo paralelo (8 threads) | Tempo paralelo (10 threads) |
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 | 5000 |	13 ms	|10 ms	|19 ms|	2 ms 	|0 ms|	0 ms|
 | 50000	|512 ms|	127 ms	|46 ms	|28 ms	|26 ms|	18 ms|
 | 100000|	4234 ms	|1063 ms|	246 ms|	142 ms|	82 ms|	65 ms|
