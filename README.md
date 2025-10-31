@@ -60,7 +60,7 @@ Os resultados das execuções serão comparados entre as versões seriais e para
 |50000|	957 ms|	297 ms|	95 ms|	30 ms|	24 ms|	18 ms|
 |100000|	7769 ms|	2290 ms|	601 ms|	133 ms|	106 ms|	76 ms|
 |500000|	84670 ms|	21451 ms|	5646 ms| 	1231 ms|	764 ms|	633 ms|
-|1000000|		655314 ms| 	162774 ms| 	54123 ms|	7073 ms| 	4999 ms|
+|1000000|		655314 ms| 	162774 ms| 	54123 ms|11438 ms|	7073 ms| 	4999 ms|
 
 
 
